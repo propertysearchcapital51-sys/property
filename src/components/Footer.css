@@ -1,0 +1,124 @@
+/* =========================================
+   FOOTER · logo + social icons
+========================================= */
+
+/* ---------- Footer logo ---------- */
+.site-footer .footer-brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+
+.site-footer .footer-logo {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+  flex: none;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.35));
+  transition: transform 0.6s var(--ease);
+}
+
+.site-footer .footer-brand-link:hover .footer-logo {
+  transform: scale(1.06) rotate(-3deg);
+}
+
+.site-footer .footer-brand-link .brand-copy {
+  gap: 5px;
+}
+
+.site-footer .footer-brand-link .brand-copy strong {
+  color: #f4f1e9;
+  font: 600 17px/1.2 var(--serif);
+  letter-spacing: 2.5px;
+}
+
+.site-footer .footer-brand-link .brand-copy small {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 7px;
+}
+
+.site-footer .footer-tagline {
+  font: 500 8px/1 "DM Sans", sans-serif;
+  letter-spacing: 2.6px;
+  color: rgba(244, 241, 233, 0.5);
+  margin-top: 2px;
+}
+
+/* ---------- Social icons ---------- */
+.site-footer .social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.site-footer .social-links a {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(244, 241, 233, 0.25);
+  border-radius: 50%;
+  color: #f4f1e9;
+  font-size: 17px;
+  line-height: 1;
+  transition: background 0.35s, color 0.35s, border-color 0.35s;
+}
+
+.site-footer .social-links a svg {
+  display: block;
+}
+
+.site-footer .social-links a.social-facebook:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+  color: #ffffff;
+}
+
+.site-footer .social-links a.social-instagram:hover {
+  background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
+  border-color: #dc2743;
+  color: #ffffff;
+}
+
+.site-footer .social-links a.social-youtube:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #ffffff;
+}
+
+.site-footer .social-links a.social-threads:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 520px) {
+  .site-footer .footer-logo {
+    width: 68px;
+    height: 68px;
+  }
+
+  .site-footer .footer-brand-link {
+    gap: 12px;
+  }
+
+  .site-footer .footer-brand-link .brand-copy strong {
+    font-size: 14px;
+    letter-spacing: 1.8px;
+  }
+
+  .site-footer .footer-brand-link .brand-copy small {
+    font-size: 10px;
+    letter-spacing: 5px;
+  }
+
+  .site-footer .social-links a {
+    width: 38px;
+    height: 38px;
+    font-size: 15px;
+  }
+}
