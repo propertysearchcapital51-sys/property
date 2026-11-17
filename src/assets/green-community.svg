@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#244a3b"/><stop offset="1" stop-color="#315d4c"/></linearGradient><pattern id="p" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M0 90L90 0M-20 20L20 -20M70 110L110 70" stroke="#ffffff" stroke-opacity=".07" stroke-width="2"/></pattern></defs>
+<rect width="1400" height="900" fill="url(#g)"/><rect width="1400" height="900" fill="url(#p)"/>
+<path d="M0 620L350 420L700 610L1040 360L1400 570V900H0Z" fill="#0e2d26" opacity=".45"/>
+<path d="M0 730L350 530L700 720L1040 470L1400 680" fill="none" stroke="#c7a56a" stroke-width="7" opacity=".8"/>
+<circle cx="1120" cy="180" r="95" fill="#c7a56a" opacity=".14"/>
+<text x="90" y="760" fill="#fff" font-family="Arial,sans-serif" font-size="54" font-weight="700">Community &amp; Amenities</text>
+<text x="94" y="812" fill="#fff" opacity=".72" font-family="Arial,sans-serif" font-size="23" letter-spacing="5">PROPERTY SEARCH CAPITAL</text>
+</svg>
